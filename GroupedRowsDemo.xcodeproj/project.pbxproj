@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69B7CC9521D6047000E6BD80 /* GroupedRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B7CC9521D6047000E6BD80 /* GroupedRowsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedRowsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B7CC9821D6047000E6BD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B7CC9A21D6047000E6BD80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69B7CC9D21D6047000E6BD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		69B7CC8C21D6047000E6BD80 = {
 			isa = PBXGroup;
 			children = (
-				69B7CC9721D6047000E6BD80 /* GroupedRows */,
+				69B7CC9721D6047000E6BD80 /* GroupedRowsDemo */,
 				69B7CC9621D6047000E6BD80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		69B7CC9621D6047000E6BD80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69B7CC9521D6047000E6BD80 /* GroupedRows.app */,
+				69B7CC9521D6047000E6BD80 /* GroupedRowsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69B7CC9721D6047000E6BD80 /* GroupedRows */ = {
+		69B7CC9721D6047000E6BD80 /* GroupedRowsDemo */ = {
 			isa = PBXGroup;
 			children = (
 				69B7CC9821D6047000E6BD80 /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				69B7CCA421D6047200E6BD80 /* Info.plist */,
 				69B7CCEE21D60BE900E6BD80 /* screenshot.png */,
 			);
-			path = GroupedRows;
+			path = GroupedRowsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69B7CC9421D6047000E6BD80 /* GroupedRows */ = {
+		69B7CC9421D6047000E6BD80 /* GroupedRowsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B7CCA721D6047200E6BD80 /* Build configuration list for PBXNativeTarget "GroupedRows" */;
+			buildConfigurationList = 69B7CCA721D6047200E6BD80 /* Build configuration list for PBXNativeTarget "GroupedRowsDemo" */;
 			buildPhases = (
 				69B7CC9121D6047000E6BD80 /* Sources */,
 				69B7CC9221D6047000E6BD80 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = GroupedRows;
+			name = GroupedRowsDemo;
 			productName = GroupedRows;
-			productReference = 69B7CC9521D6047000E6BD80 /* GroupedRows.app */;
+			productReference = 69B7CC9521D6047000E6BD80 /* GroupedRowsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69B7CC9021D6047000E6BD80 /* Build configuration list for PBXProject "GroupedRows" */;
+			buildConfigurationList = 69B7CC9021D6047000E6BD80 /* Build configuration list for PBXProject "GroupedRowsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69B7CC9421D6047000E6BD80 /* GroupedRows */,
+				69B7CC9421D6047000E6BD80 /* GroupedRowsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -299,15 +299,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GroupedRows/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GroupedRowsDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = myunggukim.com.GroupedRows;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.GroupedRows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,22 +317,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GroupedRows/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GroupedRowsDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = myunggukim.com.GroupedRows;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.GroupedRows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69B7CC9021D6047000E6BD80 /* Build configuration list for PBXProject "GroupedRows" */ = {
+		69B7CC9021D6047000E6BD80 /* Build configuration list for PBXProject "GroupedRowsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B7CCA521D6047200E6BD80 /* Debug */,
@@ -340,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B7CCA721D6047200E6BD80 /* Build configuration list for PBXNativeTarget "GroupedRows" */ = {
+		69B7CCA721D6047200E6BD80 /* Build configuration list for PBXNativeTarget "GroupedRowsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B7CCA821D6047200E6BD80 /* Debug */,
